@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body  {  
+    margin: 0;  
+    padding: 0;  
+    font-family: 'Arial';  
+  background-image: url('banner.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}  
+
+.login{  
+
+        width: 382px;  
+        height: 512px;
+        overflow: hidden;  
+        /*margin: auto; */ 
+      margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #000033;  
+        border-radius: 15px ;  
+          
+}  
+
+h1{  
+    text-align: center;  
+    color: white;  
+    padding: 20px;  
+}  
+
+label{  
+    color: white;  
+    font-size: 17px;  
+}  
+
+.voter{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+
+.ano{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+
+.btn{  
+
+  display: inline-block;
+color: #000033;  
+border: none;
+ padding: 14px 40px;
+ text-align: center;
+ text-decoration: none;
+ font-size: 18px;
+ border-radius: 17px;  
+ transform: translate(75%, 40%);
+ cursor: pointer;
+
+ /*   width: 200px;  
+    height: 30px;    
+    border-radius: 17px;  
+
+  position: absolute; 
+  cursor: pointer; */
+}  
+
+
+hr {
+  border: 1px solid grey;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+/*
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers 
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+.text-box{
+  width: 90%;
+  color: red;
+  position: center;
+  /*top: 50%;
+  left: 50%;
+  /*transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+input[type=radio] {
+  /* ...existing styles 
+  display: grid;
+  place-content: center;
+}
+
+input[type=radio]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+input[type=radio]:checked::before {
+  transform: scale(1);
+}
+
+/* Full-width input fields 
+input[type=text], input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input:focus[type=text] , input[type=number]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr 
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+ */

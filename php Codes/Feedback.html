@@ -1,0 +1,73 @@
+<!--Feedback.html-->
+<html>
+   <head>
+       <title>Feedback</title>
+   </head>
+   <body style="padding: 20px;">
+       <form action="feedback.php" method="post">
+           <label>
+               Can you tell us what your name is?
+               <input type="text" name="name">
+           </label>
+           <br />
+           <label>
+               <input type="radio" name="gen" value="male">
+               Male
+               <input type="radio" name="gen" value="female">
+               Female
+           </label>
+           <br />
+           <br />
+           <label>
+               If you could rate the site on design, lay-out ed. What number would you give? <br /><br />
+               <input type="radio" name="rate" value="1">
+               1
+               <input type="radio" name="rate" value="2">
+               2
+               <input type="radio" name="rate" value="3">
+               3
+               <input type="radio" name="rate" value="4">
+               4
+               <input type="radio" name="rate" value="5">
+               5
+               <input type="radio" name="rate" value="6">
+               6
+               <input type="radio" name="rate" value="7">
+               7
+               <input type="radio" name="rate" value="8">
+               8
+               <input type="radio" name="rate" value="9">
+               9
+               <input type="radio" name="rate" value="10">
+               10
+           </label>
+           <br />
+           <br />
+           <label>
+               Which browser(s) have you used to view the site? (multiple answers possible) <br /><br />
+               <input type="checkbox" name="browser[]" value="Chrome">
+               Chrome<br>
+               <input type="checkbox" name="browser[]" value="Opera">
+               Opera <br>
+               <input type="checkbox" name="browser[]" value="IE">
+               Internet Explorer (IE)<br>
+               <input type="checkbox" name="browser[]" value="Firefox">
+               Mozilla Firefox<br>
+               <input type="checkbox" name="browser[]" value="epic">
+               EPIC<br>
+               <input type="checkbox" name="browser[]" value="Safari">
+               Safari<br>
+           </label>
+           <br />
+           <label>
+               General feedback (comment): <br>
+               <textarea rows=5 cols=75 name="comm"></textarea>
+           </label>
+           <br>
+           <br>
+           <label>
+               <input type="submit" name="submit">
+           </label>
+       </form>
+   </body>
+</html>
